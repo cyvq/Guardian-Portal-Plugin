@@ -1,4 +1,4 @@
-# Guardian Portal Plugin
+# Guardian Portal Plugin  [![Modrinth](https://img.shields.io/modrinth/dt/guardian-portal-optimization?logo=modrinth)](https://modrinth.com/mod/guardian-portal-optimization)
 
 Optimizes guardian farms that use portals to transport guardians into the Nether, where they are killed.
 
