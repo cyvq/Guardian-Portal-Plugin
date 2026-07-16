@@ -1,0 +1,5 @@
+#Default state when the plugin is loaded on server start.
+
+enabled: true
+
+debug: false

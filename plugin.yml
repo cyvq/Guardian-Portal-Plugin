@@ -1,0 +1,27 @@
+name: GuardianPortalPlugin
+main: com.cyvertray.guardianportal.GuardianPortalPlugin
+version: 1.1
+api-version: 1.21
+description: Optimizes Guardians when they go through a portal. Allows player to afk a guardian farm alone.
+author: cyvertray
+load: POSTWORLD
+
+commands:
+  guardian:
+    description: GuardianPortalPlugin main command
+    usage: /<command> [reload|toggle|debug]
+    permission: guardian.use
+    permission-message: "§cYou do not have permission to use this command."
+permissions:
+  guardian.reload:
+    description: Allows reloading the GuardianPortalPlugin config
+    default: op
+  guardian.toggle:
+    description: Allows toggling the GuardianPortalPlugin on/off
+    default: op
+  guardian.use:
+    description: Base permission for the /guardian command
+    default: op
+  guardian.debug:
+    description: Allows toggling debug mode for GuardianPortalPlugin
+    default: op
